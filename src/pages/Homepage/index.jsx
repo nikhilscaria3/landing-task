@@ -859,10 +859,12 @@ const HomepagePage = () => {
               <div className="absolute bg-gradient3  flex flex-col h-full inset-[0] sm:items-center items-start justify-center sm:justify-start m-auto sm:p-[] sm:pl-[] sm:pr-[] pt-[220px] sm:pt-[] md:px-10 px-[220px] sm:top-[0] w-full">
                 <div className="bg-gradient4  h-[139px] md:h-[390px] mt-[251px] sm:pl-5 pl-[33px] relative w-[300px] sm:w-full">
                   <Img
-                    className="absolute flex flex-row h-[139px] inset-y-[0] my-auto right-[0] w-[232px]"
+                    className="absolute flex flex-row w-[322px] h-[139px] inset-y-[0] my-auto right-[0]"
                     src="images/img_background_white_a700.svg"
                     alt="background_Four"
+                    style={{ backgroundColor: 'orange' }}
                   />
+
                   <div className="absolute flex flex-row gap-[21px] h-max inset-[0] items-center justify-center m-auto w-[83%]">
                     <Img
                       className="h-20"
