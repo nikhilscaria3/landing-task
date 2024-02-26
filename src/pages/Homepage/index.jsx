@@ -96,7 +96,7 @@ const HomepagePage = () => {
                     </li>
                     <li>
                       <a href="javascript:">
-                        <div className="flex flex-row gap-3.5 items-end justify-start">
+                        <div className="flex flex-row gap-3.5 items-start justify-start">
                           <Button
                             className="border border-indigo-900_01 border-solid flex h-[63px] items-center justify-center mb-[5px] w-[63px]"
                             color="indigo_900"
@@ -124,10 +124,10 @@ const HomepagePage = () => {
                 className="bg-cover bg-no-repeat flex flex-1 flex-col font-krub h-[78px] items-center justify-start md:px-10 sm:px-5 px-[361px] w-full"
                 style={{ backgroundImage: "url('images/img_menu.svg')" }}
               >
-                <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1197px] w-full">
+                <div className="flex md:flex-col flex-row sm:gap-1 md:gap-10 items-center justify-between max-w-[1197px] w-full">
                   <div className="flex md:flex-1 flex-col items-center justify-end pt-[30px] w-[43%] md:w-full">
                     <div className="flex flex-col gap-[23px] items-start justify-start w-full">
-                      <ul className="flex sm:flex-col flex-row gap-[30px] items-center justify-start w-[504px] sm:w-full">
+                      <ul className="flex flex-row gap-[30px] items-center justify-start w-[504px] sm:w-full">
                         <li>
                           <a
                             href="javascript:"
@@ -199,7 +199,7 @@ const HomepagePage = () => {
                       <div className="bg-white-A700 h-0.5 w-[9%]"></div>
                     </div>
                   </div>
-                  <div className="flex sm:flex-1 sm:flex-col flex-row gap-[50px] items-center justify-end w-[416px] sm:w-full">
+                  <div className="flex sm:flex-1 sm:flex-col flex-row gap-[50px] sm:gap-[9px] items-center justify-end w-[416px] sm:w-full">
                     <Img
                       className="h-[19px] w-[151px]"
                       src="images/img_follow.svg"
@@ -234,10 +234,10 @@ const HomepagePage = () => {
                     Logistics & Supply Chain Solutions
                   </Text>
                 </div>
-                <div className="flex flex-col font-krub gap-6 items-start justify-start max-w-[742px] w-full">
+                <div className="flex flex-col font-krub gap-6 items-start justify-start max-w-[742px] sm:relative sm:right-[13%] w-full">
                   <div className="flex flex-col gap-1.5 items-start justify-start max-w-[742px] w-full">
                     <Text
-                      className="md:text-5xl text-6xl text-white-A700"
+                      className="sm:flex sm:flex-col sm:items-center sm:justify-center sm:m-[] sm:ml-2.5 sm:mr-5 sm:my-auto sm:overflow-auto sm:p-2.5 sm:relative sm:right-[] md:text-5xl text-6xl text-white-A700"
                       size="txtRubikRomanBold60"
                     >
                       <>
@@ -246,7 +246,7 @@ const HomepagePage = () => {
                       </>
                     </Text>
                     <Text
-                      className="leading-[151.52%] max-w-[643px] md:max-w-full text-base text-white-A700"
+                      className="sm:flex sm:flex-col sm:h-full sm:items-center leading-[151.52%] sm:m-auto max-w-[643px] sm:max-w-[] md:max-w-full sm:p-2.5 sm:relative sm:right-[13px] text-base text-white-A700 sm:w-full"
                       size="txtKrubMedium16"
                     >
                       In augue ligula, feugiat ut nulla consequat. Ut est lacus,
@@ -293,7 +293,7 @@ const HomepagePage = () => {
             <div className="md:gap-5 gap-[79px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
               <div className="flex flex-1 sm:flex-col flex-row gap-4 items-start justify-start w-full">
                 <Img
-                  className="h-[115px] w-[84px]"
+                  className="sm:absolute sm:block sm:flex-col h-[115px] sm:items-center sm:justify-center w-[84px]"
                   src="images/img_icon_gray_900_01_115x84.svg"
                   alt="icon"
                 />
@@ -318,7 +318,7 @@ const HomepagePage = () => {
               </div>
               <div className="flex flex-1 sm:flex-col flex-row gap-4 items-start justify-start w-full">
                 <Img
-                  className="h-[115px] w-[75px]"
+                  className="sm:absolute h-[115px] w-[75px]"
                   src="images/img_icon_gray_900_02.svg"
                   alt="icon"
                 />
@@ -343,7 +343,7 @@ const HomepagePage = () => {
               </div>
               <div className="flex flex-1 sm:flex-col flex-row gap-7 items-start justify-start w-full">
                 <Img
-                  className="h-[115px] w-[75px]"
+                  className="sm:absolute h-[115px] w-[75px]"
                   src="images/img_icon_gray_900_01_115x75.svg"
                   alt="icon"
                 />
@@ -368,7 +368,7 @@ const HomepagePage = () => {
               </div>
               <div className="flex flex-1 sm:flex-col flex-row gap-4 items-start justify-start w-full">
                 <Img
-                  className="h-[126px] w-[77px]"
+                  className="sm:absolute h-[126px] w-[77px]"
                   src="images/img_icon_gray_900_01_126x77.svg"
                   alt="icon"
                 />
@@ -404,15 +404,15 @@ const HomepagePage = () => {
                   alt="photo_One"
                 />
                 <Img
-                  className="absolute h-[504px] inset-[0] justify-center m-auto object-cover"
+                  className="absolute sm:flex sm:flex-col h-[504px] sm:h-[] inset-[0] sm:items-center justify-center m-auto object-cover"
                   src="images/img_background.png"
                   alt="background"
                 />
               </div>
             </div>
-            <div className="md:h-[364px] h-[547px] mt-[-138px] mx-auto w-[63%] md:w-full z-[1]">
-              <div className="absolute bg-white-A700 h-[502px] inset-x-[0] mx-auto top-[0] w-full"></div>
-              <div className="absolute bottom-[0] md:h-[437px] h-[462px] inset-x-[0] mx-auto w-[1021px] md:w-full">
+            <div className="md:h-[364px] sm:h-[389px] h-[547px] mt-[-138px] mx-auto w-[63%] md:w-full z-[1]">
+              <div className="absolute bg-white-A700 h-[502px] sm:h-px inset-x-[0] mx-auto overflow-x-visible top-[0] w-full"></div>
+              <div className="absolute bottom-[0] sm:flex sm:flex-row sm:gap-2.5 md:h-[437px] h-[462px] sm:h-[527px] inset-x-[0] sm:items-center sm:justify-center mx-auto w-[1021px] md:w-full">
                 <div className="absolute flex flex-col gap-[25px] items-start justify-start left-[0] top-[0] w-[472px] sm:w-full">
                   <div className="flex flex-col gap-3 items-start justify-start w-[472px] sm:w-full">
                     <div className="flex flex-row items-center justify-start w-[15%] md:w-full">
@@ -426,13 +426,13 @@ const HomepagePage = () => {
                     </div>
                     <div className="flex flex-col gap-3 items-start justify-start w-[472px] sm:w-full">
                       <Text
-                        className="max-w-[472px] md:max-w-full sm:text-[31px] md:text-[33px] text-[35px] text-gray-900_01"
+                        className="sm:absolute max-w-[472px] md:max-w-full sm:text-[31px] md:text-[33px] text-[35px] text-gray-900_01"
                         size="txtRubikRomanSemiBold35"
                       >
                         We provide full range global logistics solution
                       </Text>
                       <Text
-                        className="leading-[151.52%] text-base text-blue_gray-500"
+                        className="leading-[151.52%] sm:m-auto text-base text-blue_gray-500"
                         size="txtKrubMedium16Bluegray500"
                       >
                         <>
@@ -446,8 +446,8 @@ const HomepagePage = () => {
                       </Text>
                     </div>
                   </div>
-                  <div className="flex flex-col gap-[22px] items-start justify-start w-[325px]">
-                    <div className="flex flex-row gap-[15px] items-center justify-start w-[265px]">
+                  <div className="flex flex-col gap-[22px] sm:items-center items-start sm:justify-center justify-start w-[325px]">
+                    <div className="flex sm:flex-col flex-row gap-[15px] items-center justify-start w-[265px]">
                       <Img
                         className="h-[58px] md:h-auto object-cover w-[58px]"
                         src="images/img_icon_gray_900_02_58x58.png"
@@ -460,7 +460,7 @@ const HomepagePage = () => {
                         Delivery on Time
                       </Text>
                     </div>
-                    <div className="flex flex-row gap-[15px] items-center justify-start w-[325px]">
+                    <div className="flex sm:flex-col flex-row gap-[15px] items-center justify-start w-[325px]">
                       <Img
                         className="h-[58px] md:h-auto object-cover w-[58px]"
                         src="images/img_icon_gray_900_01_58x58.png"
@@ -475,8 +475,8 @@ const HomepagePage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="absolute flex flex-col h-full inset-y-[0] items-center justify-start my-auto right-[0] w-[56%]">
-                  <div className="md:h-[415px] h-[462px] relative w-full">
+                <div className="absolute flex flex-col sm:flex-row h-full inset-y-[0] items-center sm:items-end justify-start my-auto right-[0] w-[56%] sm:w-full">
+                  <div className="sm:flex sm:flex-row md:h-[415px] h-[462px] sm:items-start sm:justify-start relative w-full">
                     <div className="absolute flex flex-col items-center justify-start right-[0] top-[0] w-[82%]">
                       <Img
                         className="h-[415px] md:h-auto object-cover w-full"
@@ -842,24 +842,24 @@ const HomepagePage = () => {
             </div>
           </List>
         </div>
-        <div className="bg-gray-100 h-[897px] md:h-[998px] mt-[101px] md:px-5 relative w-full">
+        <div className="bg-gray-100 flex flex-col h-[897px] md:h-[998px] items-center justify-center mt-[101px] md:px-5 relative w-full">
           <Img
             className="absolute h-[450px] object-cover right-[0] top-[9%]"
             src="images/img_pattern.png"
             alt="pattern_Eight"
           />
-          <div className="absolute h-[897px] inset-y-[0] left-[0] my-auto w-[56%] md:w-full">
-            <div className="absolute bg-gray-900_03 h-[897px] inset-y-[0] left-[0] my-auto w-[90%]"></div>
+          <div className="absolute sm:flex sm:flex-row h-[897px] sm:h-[] inset-y-[0] sm:items-center sm:justify-center left-[0] my-auto w-[56%] md:w-full">
+            <div className="absolute bg-gray-900_03 flex flex-row h-[897px] inset-y-[0] left-[0] my-auto w-[90%] sm:w-auto"></div>
             <div className="absolute h-[610px] inset-y-[0] my-auto right-[0] w-[87%] md:w-full">
               <Img
                 className="h-[610px] m-auto object-cover w-full"
                 src="images/img_photo_610x929.png"
                 alt="photo_Four"
               />
-              <div className="absolute bg-gradient3  flex flex-col h-full inset-[0] items-start justify-center m-auto pt-[220px] md:px-10 sm:px-5 px-[220px] w-full">
-                <div className="bg-gradient  h-[139px] md:h-[390px] mt-[251px] sm:pl-5 pl-[33px] relative w-[86%] sm:w-full">
+              <div className="absolute bg-gradient3  flex flex-col h-full inset-[0] sm:items-center items-start justify-center sm:justify-start m-auto sm:p-[] sm:pl-[] sm:pr-[] pt-[220px] sm:pt-[] md:px-10 px-[220px] sm:top-[0] w-full">
+                <div className="bg-gradient4  h-[139px] md:h-[390px] mt-[251px] sm:pl-5 pl-[33px] relative w-[300px] sm:w-full">
                   <Img
-                    className="absolute h-[139px] inset-y-[0] my-auto right-[0]"
+                    className="absolute flex flex-row h-[139px] inset-y-[0] my-auto right-[0] w-[232px]"
                     src="images/img_background_white_a700.svg"
                     alt="background_Four"
                   />
@@ -870,7 +870,7 @@ const HomepagePage = () => {
                       alt="user"
                     />
                     <Text
-                      className="sm:text-[21px] md:text-[23px] text-[25px] text-gray-900_01 w-[76%] sm:w-full"
+                      className="sm:text-[21px] md:text-[23px] text-[25px] text-gray-900_01 w-[89%] sm:w-full"
                       size="txtRubikRomanRegular25"
                     >
                       Moving your products across borders
@@ -880,7 +880,7 @@ const HomepagePage = () => {
               </div>
             </div>
           </div>
-          <div className="absolute flex flex-col md:gap-10 gap-[61px] h-max inset-y-[0] items-start justify-start my-auto right-[13%] w-[553px] sm:w-full">
+          <div className="absolute flex flex-col sm:flex-row md:gap-10 gap-14 h-max inset-y-[0] items-end justify-center my-auto sm:right-[-2px] right-px w-[553px] sm:w-full">
             <div className="flex flex-col gap-[18px] items-start justify-start w-[494px] sm:w-full">
               <div className="flex flex-col font-rubik gap-3 items-start justify-start w-[438px] sm:w-full">
                 <div className="flex flex-row items-center justify-start w-[24%] md:w-full">
@@ -893,7 +893,7 @@ const HomepagePage = () => {
                   </Text>
                 </div>
                 <Text
-                  className="max-w-[438px] md:max-w-full sm:text-[31px] md:text-[33px] text-[35px] text-gray-900_01"
+                  className="sm:absolute sm:bottom-[] max-w-[438px] md:max-w-full sm:text-[31px] md:text-[33px] text-[35px] text-gray-900_01"
                   size="txtRubikRomanSemiBold35"
                 >
                   We create opportunity to reach potential
@@ -909,7 +909,7 @@ const HomepagePage = () => {
               </Text>
             </div>
             <List
-              className="sm:flex-col flex-row md:gap-10 gap-[72px] grid sm:grid-cols-1 grid-cols-2 justify-start w-[553px] sm:w-full"
+              className="sm:flex sm:flex-col flex-row md:gap-10 gap-[72px] sm:gap-[] sm:gap-x-[] sm:gap-y-[] grid sm:grid-cols-1 grid-cols-2 sm:items-center sm:justify-center justify-start sm:m-auto sm:overflow-y-visible sm:p-[] sm:pt-px sm:top-[23px] w-[553px] sm:w-full"
               orientation="horizontal"
             >
               <div className="flex flex-col gap-5 items-start justify-start w-[223px]">
@@ -1048,7 +1048,7 @@ const HomepagePage = () => {
                     <div className="flex flex-col items-center justify-start w-full">
                       <div className="flex flex-col items-center justify-start w-full">
                         <Img
-                          className="h-[426px] md:h-auto object-cover w-full"
+                          className="flex flex-row h-[426px] md:h-auto object-cover w-full"
                           src="images/img_photo_426x364.png"
                           alt="photo"
                         />
@@ -1073,7 +1073,7 @@ const HomepagePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute bg-gradient  bottom-[15%] flex flex-col items-end justify-center sm:px-5 px-[20.07px] py-[17.06px] right-[0] rotate-[90deg] w-[151px]">
+                  <div className="absolute bg-gradient4  bottom-[15%] flex flex-row items-center justify-start sm:px-5 px-[20.07px] py-[17.06px] right-2.5 rotate-[90deg] w-[162px]">
                     <Img
                       className="h-[21px] w-[117px]"
                       src="images/img_icons.svg"
@@ -1115,7 +1115,7 @@ const HomepagePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute bg-gradient  bottom-[15%] flex flex-col items-end justify-center sm:px-5 px-[20.07px] py-[17.06px] right-[0] rotate-[90deg] w-[198px]">
+                  <div className="absolute bg-gradient4  bottom-[15%] flex flex-row items-end justify-center sm:px-5 px-[20.07px] py-[17.06px] right-[0] rotate-[90deg] w-[198px]">
                     <Img
                       className="h-[21px] w-[163px]"
                       src="images/img_icons_gray_900_01.svg"
@@ -1169,9 +1169,9 @@ const HomepagePage = () => {
             </div>
           </List>
         </div>
-        <div className="bg-gray-900_03 flex flex-col font-krub items-center justify-start max-w-[1920px] mt-[101px] md:px-10 sm:px-5 px-[360px] py-[143px] w-full">
+        <div className="bg-gray-900_03 flex flex-col font-krub items-center justify-start max-w-full mt-[101px] md:px-10 sm:px-5 px-[360px] py-[143px] w-full">
           <div className="flex flex-col md:gap-10 gap-[70px] items-center justify-start max-w-[1201px] mx-auto w-full">
-            <div className="flex md:flex-col flex-row md:gap-10 gap-[88px] items-start justify-start max-w-[1199px] w-full">
+            <div className="flex md:flex-col flex-row md:gap-10 gap-[88px] items-start justify-start max-w-full w-full">
               <div className="flex flex-col gap-8 items-start justify-start w-[353px]">
                 <div className="flex flex-col gap-[3px] items-start justify-start w-[353px]">
                   <div className="flex flex-col font-rubik gap-[13px] items-start justify-start w-[343px]">
@@ -1260,8 +1260,8 @@ const HomepagePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex md:flex-1 flex-col font-leaguespartan items-center justify-end pt-[42px] w-[64%] md:w-full">
-                <div className="flex flex-col gap-[31px] items-start justify-start max-w-[758px] w-full">
+              <div className="flex flex-1 flex-col font-leaguespartan items-center justify-end pt-[43px] w-full">
+                <div className="flex flex-col gap-[31px] items-center justify-start max-w-[804px] w-full">
                   <div className="flex sm:flex-col flex-row gap-7 items-start justify-start max-w-[758px] w-full">
                     <Text
                       className="border border-blue_gray-600 border-solid pb-[22px] pl-[29px] pr-[35px] pt-[18px] sm:px-5 text-white-A700 text-xl w-auto"
@@ -1308,10 +1308,10 @@ const HomepagePage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col font-syne items-center justify-start w-full">
-              <div className="h-[234px] md:h-[488px] relative w-[1201px] md:w-full">
-                <div className="flex m-auto w-full">
-                  <div className="flex my-auto w-[76%] md:w-full">
+            <div className="flex flex-col font-syne items-center sm:justify-center justify-start sm:top-1.5 w-full">
+              <div className="flex sm:flex-col flex-row h-[234px] md:h-[488px] sm:items-center sm:justify-center relative w-[1201px] md:w-full">
+                <div className="flex sm:flex-col sm:items-center sm:justify-start m-auto w-full">
+                  <div className="flex sm:flex-row sm:h-full sm:items-center sm:justify-center sm:m-auto sm:mx-auto my-auto sm:p-[] sm:pb-[] sm:pl-[] sm:pr-[] sm:pt-[] sm:relative w-[76%] md:w-full">
                     <div className="flex flex-col items-center justify-start my-auto w-[67%]">
                       <div className="flex md:flex-col flex-row md:gap-5 items-center justify-evenly w-full">
                         <div className="flex md:flex-1 flex-col items-center justify-start w-1/2 md:w-full">
@@ -1323,7 +1323,7 @@ const HomepagePage = () => {
                                 src="images/img_photo_234x301.png"
                                 alt="photo_Five"
                               />
-                              <div className="absolute bg-gradient4  flex flex-col h-full inset-[0] items-center justify-center m-auto p-[47px] md:px-10 sm:px-5 w-full">
+                              <div className="absolute bg-gradient5  flex flex-col h-full inset-[0] items-center justify-center m-auto p-[47px] md:px-10 sm:px-5 w-full">
                                 <div className="flex flex-row gap-[9px] items-start justify-center my-[43px] w-full">
                                   <Img
                                     className="h-[51px] w-[51px]"
@@ -1357,7 +1357,7 @@ const HomepagePage = () => {
                                 src="images/img_photo_234x300.png"
                                 alt="photo_Six"
                               />
-                              <div className="absolute bg-gradient4  flex flex-col h-full inset-[0] items-center justify-center m-auto p-[97px] md:px-10 sm:px-5 w-full">
+                              <div className="absolute bg-gradient5  flex flex-col h-full inset-[0] items-center justify-center m-auto p-[97px] md:px-10 sm:px-5 w-full">
                                 <Img
                                   className="h-[38px]"
                                   src="images/img_norto.svg"
@@ -1378,7 +1378,7 @@ const HomepagePage = () => {
                             src="images/img_photo_8.png"
                             alt="photo_Seven"
                           />
-                          <div className="absolute bg-gradient4  flex flex-col h-full inset-[0] items-center justify-center m-auto p-[57px] md:px-10 sm:px-5 w-full">
+                          <div className="absolute bg-gradient5  flex flex-col h-full inset-[0] items-center sm:items-start justify-center sm:justify-start m-auto p-[57px] md:px-10 sm:px-5 w-full">
                             <div className="md:h-[119px] h-[47px] my-9 relative w-full">
                               <Text
                                 className="absolute h-max inset-y-[0] my-auto right-[0] text-white-A700 text-xl tracking-[11.30px] uppercase"
@@ -1432,7 +1432,7 @@ const HomepagePage = () => {
                       <Line className="bg-blue_gray-600 h-[234px] w-px" />
                     </div>
                   </div>
-                  <div className="flex flex-row font-thabit items-center justify-evenly ml-[-1px] my-auto w-1/4 z-[1]">
+                  <div className="flex flex-row font-thabit items-center justify-evenly ml-[-1px] my-auto w-1/4 md:w-full z-[1]">
                     <div className="flex flex-col items-center justify-start w-full">
                       <div className="h-[234px] relative w-full">
                         <Img
@@ -1440,7 +1440,7 @@ const HomepagePage = () => {
                           src="images/img_photo_234x299.png"
                           alt="photo_Eight"
                         />
-                        <div className="absolute bg-gradient4  flex flex-col h-full inset-[0] items-center justify-center m-auto p-[62px] md:px-10 sm:px-5 w-full">
+                        <div className="absolute bg-gradient5  flex flex-col h-full inset-[0] items-center justify-center m-auto p-[62px] sm:p-[] sm:pb-[] sm:pl-[] sm:pr-[] sm:pt-[] md:px-10 w-full">
                           <div className="md:h-[110px] h-[52px] my-[29px] relative w-full">
                             <Text
                               className="m-auto text-white-A700 text-xl tracking-[11.30px] uppercase"
@@ -1462,7 +1462,7 @@ const HomepagePage = () => {
                     <Line className="bg-blue_gray-600 h-[234px] w-px" />
                   </div>
                 </div>
-                <Line className="absolute bg-blue_gray-600 h-px inset-x-[0] mx-auto top-[0] w-full" />
+                <Line className="absolute bg-blue_gray-600 flex flex-row h-px inset-x-[0] mx-auto top-[0] w-full" />
               </div>
               <Line className="bg-blue_gray-600 h-px w-full" />
             </div>
@@ -1707,9 +1707,9 @@ const HomepagePage = () => {
             </Text>
           </div>
         </div>
-        <div className="font-krub h-[974px] mt-[100px] md:px-5 relative w-full">
-          <div className="flex md:flex-col flex-row font-rubik md:gap-10 items-start justify-between mb-[undefinedpx] mt-auto mx-auto w-[63%] z-[1]">
-            <div className="flex flex-col md:gap-10 gap-[77px] items-start justify-start w-[319px]">
+        <div className="font-krub h-[974px] sm:m-[] mt-[100px] md:px-5 relative w-full">
+          <div className="flex md:flex-col flex-row font-rubik md:gap-10 items-start justify-between mb-[undefinedpx] mt-auto mx-auto relative top-[45px] z-[1]">
+            <div className="absolute flex flex-col md:gap-10 gap-[77px] items-start justify-start left-[15px] top-[600px] w-[319px]">
               <div className="flex flex-col items-center justify-start w-[66%] md:w-full">
                 <div className="flex flex-row gap-[9px] items-start justify-start w-full">
                   <div className="flex flex-col items-start justify-start mt-[3px] w-[14%]">
@@ -1736,7 +1736,7 @@ const HomepagePage = () => {
               </div>
               <div className="flex flex-col font-krub gap-[33px] items-start justify-start w-[319px]">
                 <Text
-                  className="leading-[151.52%] max-w-[319px] md:max-w-full text-base text-gray-200_01"
+                  className="sm:flex sm:flex-col sm:items-center sm:justify-start leading-[151.52%] sm:m-auto max-w-[319px] md:max-w-full text-base text-gray-200_01"
                   size="txtKrubMedium16Gray20001"
                 >
                   Leverage agile frameworks to provide a robust synopsis for
@@ -1787,7 +1787,7 @@ const HomepagePage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between max-w-[769px] w-full">
+            <div className="sm:absolute flex sm:flex-col flex-row sm:gap-[] sm:gap-x-[] sm:gap-y-[] sm:items-center items-start justify-between left-[450px] max-w-[769px] relative top-[606px] sm:top-[] w-full">
               <div className="flex flex-col md:gap-10 gap-[74px] items-start justify-start w-[86px]">
                 <Text
                   className="sm:text-[21px] md:text-[23px] text-[25px] text-white-A700 w-auto"
@@ -1820,7 +1820,7 @@ const HomepagePage = () => {
                   Utility
                 </Text>
                 <Text
-                  className="leading-[250.00%] text-base text-white-A700"
+                  className="sm:absolute leading-[250.00%] text-base text-white-A700"
                   size="txtKrubMedium16"
                 >
                   <>
@@ -1836,7 +1836,7 @@ const HomepagePage = () => {
                   </>
                 </Text>
               </div>
-              <div className="flex flex-col md:gap-10 gap-[85px] items-start justify-start w-[317px]">
+              <div className="flex flex-col md:gap-10 gap-[85px] items-start justify-start relative w-[317px]">
                 <Text
                   className="sm:text-[21px] md:text-[23px] text-[25px] text-white-A700 w-auto"
                   size="txtRubikRomanMedium25"
@@ -1871,13 +1871,13 @@ const HomepagePage = () => {
           </div>
           <div className="bg-blue_gray-100_03 flex flex-col items-center justify-start mb-[-1px] mx-auto w-full z-[1]">
             <Img
-              className="h-[412px] sm:h-auto object-cover w-full"
+              className="sm:absolute sm:h-[100px] h-[412%] md:h-[412px] object-cover w-full"
               src="images/img_photo_412x1920.png"
               alt="photo_Nine"
             />
           </div>
-          <div className="md:h-[562px] h-[563px] sm:h-[564px] mt-auto mx-auto w-full">
-            <div className="absolute bg-gray-900_03 flex flex-col h-max inset-[0] items-center justify-center m-auto py-[18px] w-full">
+          <div className="md:h-[562px] h-[563px] sm:h-[564px] mt-auto mx-auto static w-full">
+            <div className="bg-gray-900_03 flex flex-col sm:h-[] h-max inset-[0] items-center justify-center m-auto sm:max-w-full sm:p-[auto] py-[18px] w-full">
               <div className="flex flex-col gap-3.5 items-center justify-start mt-[471px] w-full">
                 <Line className="bg-blue_gray-600 h-px w-full" />
                 <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1195px] w-full">
@@ -1910,7 +1910,7 @@ const HomepagePage = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute bg-white-A700_14 h-[118px] right-[0] top-[0] w-[62%]"></div>
+            <div className="absolute bg-white-A700_14 h-[118px] overflow-y-auto right-[0] top-[35%] w-[62%]"></div>
             <div className="absolute bg-white-A700_14 h-[118px] left-[0] rotate-[180deg] top-[0] w-[17%]"></div>
           </div>
         </div>

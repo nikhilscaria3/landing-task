@@ -53,7 +53,8 @@ module.exports = {
         gradient1: "linear-gradient(120deg ,#ffb629,#ffd956,#ffd6a5)",
         gradient2: "linear-gradient(0deg ,#091242,#3b3b3b00)",
         gradient3: "linear-gradient(41deg ,#060f3b,#112aab00)",
-        gradient4: "linear-gradient(180deg ,#111b53,#111b5300)",
+        gradient4: "linear-gradient(126deg ,[object Object])",
+        gradient5: "linear-gradient(180deg ,#111b53,#111b5300)",
       },
       fontFamily: {
         rubik: "Rubik",
