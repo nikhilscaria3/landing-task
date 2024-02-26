@@ -410,8 +410,8 @@ const HomepagePage = () => {
                 />
               </div>
             </div>
-            <div className="md:h-[364px] sm:h-[389px] h-[547px] mt-[-138px] mx-auto w-[63%] md:w-full z-[1]">
-              <div className="absolute bg-white-A700 h-[502px] sm:h-px inset-x-[0] mx-auto overflow-x-visible top-[0] w-full"></div>
+            <div className="md:h-[364px] bg-white-A700 sm:h-[389px] h-[547px] mt-[-138px] mx-auto w-[63%] md:w-full z-[1]">
+              <div className="absolute bg-A700 h-[502px] sm:h-px inset-x-[0] mx-auto overflow-x-visible top-[0] w-full"></div>
               <div className="absolute bottom-[0] sm:flex sm:flex-row sm:gap-2.5 md:h-[437px] h-[462px] sm:h-[527px] inset-x-[0] sm:items-center sm:justify-center mx-auto w-[1021px] md:w-full">
                 <div className="absolute flex flex-col gap-[25px] items-start justify-start left-[0] top-[0] w-[472px] sm:w-full">
                   <div className="flex flex-col gap-3 items-start justify-start w-[472px] sm:w-full">
